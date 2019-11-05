@@ -1,0 +1,6 @@
+.bundle
+.env
+hey_jony.iml
+vendor/
+
+.idea

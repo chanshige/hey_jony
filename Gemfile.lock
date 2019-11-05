@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.7.5)
+    faraday (0.17.0)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.1.1)
+    slack-notifier (2.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  faraday
+  slack-notifier
+
+BUNDLED WITH
+   1.17.3
