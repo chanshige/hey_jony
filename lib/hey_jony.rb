@@ -28,7 +28,15 @@ module HeyJony
       end
       
       websocket.on :message do |event|
-        p ["EVENT::", JSON.parse(event.data)]
+        event_data = JSON.parse(event.data)
+        p ["EVENT::", event_data]
+
+        if !event_data['text'].nil?
+          # jony checks his name ANYTIME ANYWHERE
+          if event_data['text'].include?('ジョニー')
+            slack.post '呼んだ？'
+          end
+        end
       end
 
       websocket.on :close do
