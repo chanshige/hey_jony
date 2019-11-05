@@ -10,6 +10,8 @@ Welcome to jony bot cli.
 
     % bundle exec ruby bin/console
 
+![image](https://i.gyazo.com/7dae971f645b8e1285d81869c822646c.png)
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
