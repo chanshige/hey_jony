@@ -6,6 +6,8 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem 'dotenv'
 gem 'faraday'
+gem 'minitest'
+gem 'rake'
 gem 'slack-notifier'
 gem 'http'
 gem 'json'

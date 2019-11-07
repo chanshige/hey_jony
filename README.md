@@ -7,10 +7,12 @@ Welcome to jony bot cli.
     % bundle install --path vendor/bundle
 
 ## Usage
-
     % bundle exec ruby bin/console
 
 ![image](https://i.gyazo.com/7dae971f645b8e1285d81869c822646c.png)
+
+## Test
+    % bundle exec rake test
 
 ## License
 

@@ -4,7 +4,9 @@ GEM
     dotenv (2.7.5)
     faraday (0.17.0)
       multipart-post (>= 1.2, < 3)
+    minitest (5.13.0)
     multipart-post (2.1.1)
+    rake (13.0.0)
     slack-notifier (2.3.2)
 
 PLATFORMS
@@ -13,6 +15,8 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   faraday
+  minitest
+  rake
   slack-notifier
 
 BUNDLED WITH
