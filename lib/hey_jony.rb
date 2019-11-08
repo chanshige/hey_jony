@@ -8,7 +8,7 @@ require 'hey_jony/life'
 # HeyJony
 module HeyJony
   def self.run
-    life = HeyJony::Life.new HeyJony::Experimental::RtmConnect.new 222
+    life = HeyJony::Life.new HeyJony::Experimental::RtmConnect.new ENV['SLACK_API_TOKEN']
     life.exec
   rescue StandardError => e
     p '[error] ' + e.message
