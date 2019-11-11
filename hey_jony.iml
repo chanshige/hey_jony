@@ -25,6 +25,40 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="eventmachine (vbundled(1.2.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/docs" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/rakelib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="faraday (vbundled(0.17.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -36,6 +70,59 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/faraday-0.17.0/lib" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="faye-websocket (vbundled(0.10.9)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/faye-websocket-0.10.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/faye-websocket-0.10.9/examples" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/faye-websocket-0.10.9/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/faye-websocket-0.10.9/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/faye-websocket-0.10.9/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json (vbundled(2.2.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/diagrams" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/references" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/diagrams" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/references" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/java" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/tests" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/tools" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/diagrams" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/references" />
+        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -140,6 +227,39 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/thor-0.20.3/bin" />
         </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="websocket-driver (vbundled(0.7.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="websocket-extensions (vbundled(0.1.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-extensions-0.1.4/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-extensions-0.1.4/lib" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.2, rbenv: 2.6.5) [gem]" level="application" />
