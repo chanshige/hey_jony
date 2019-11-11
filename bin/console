@@ -5,4 +5,4 @@ $LOAD_PATH.unshift File.expand_path('../lib', __dir__)
 
 require 'hey_jony'
 # execute
-HeyJony.run
+HeyJony::Cli.start ARGV
