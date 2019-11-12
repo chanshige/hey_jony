@@ -1,23 +1,15 @@
 # frozen_string_literal: true
 
 require 'json'
-
 require 'eventmachine'
 require 'faye/websocket'
-require 'hey_jony/experimental/rtm_connect'
 
 module HeyJony
   class Life
-    @wss_url = nil
-
-    def initialize(connect)
-      @wss_url = connect.wss_url
-    end
-
-    def exec
+    def self.exec(wss_url)
       EM.run do
         # JONY SERVER STAND BY!
-        ws = Faye::WebSocket::Client.new @wss_url
+        ws = Faye::WebSocket::Client.new wss_url
 
         ws.on :open do
           p '~~~~~~~~JONY IS BORN~~~~~~~~'
@@ -46,4 +38,3 @@ module HeyJony
     end
   end
 end
-

@@ -5,6 +5,7 @@ require 'thor'
 
 require 'hey_jony/version'
 require 'hey_jony/notifier/slack'
+require 'hey_jony/experimental/rtm_connect'
 require 'hey_jony/life'
 
 module HeyJony
@@ -22,8 +23,8 @@ module HeyJony
     desc 'rtm', 'Starts a Real Time Jony.'
     # @return void
     def rtm
-      life = HeyJony::Life.new HeyJony::Experimental::RtmConnect.new ENV['SLACK_API_TOKEN']
-      life.exec
+      conn = HeyJony::Experimental::RtmConnect.new ENV['SLACK_API_TOKEN']
+      HeyJony::Life.exec conn.wss_url
     rescue StandardError => e
       p '[error] ' + e.message
     end
