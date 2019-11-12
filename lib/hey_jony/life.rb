@@ -6,7 +6,7 @@ require 'faye/websocket'
 
 module HeyJony
   class Life
-    def self.exec(wss_url)
+    def self.talk(wss_url)
       EM.run do
         # JONY SERVER STAND BY!
         ws = Faye::WebSocket::Client.new wss_url

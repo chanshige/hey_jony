@@ -24,7 +24,7 @@ module HeyJony
     # @return void
     def rtm
       conn = HeyJony::Experimental::RtmConnect.new ENV['SLACK_API_TOKEN']
-      HeyJony::Life.exec conn.wss_url
+      HeyJony::Life.talk conn.wss_url
     rescue StandardError => e
       p '[error] ' + e.message
     end
