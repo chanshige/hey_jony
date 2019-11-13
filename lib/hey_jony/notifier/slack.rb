@@ -10,6 +10,11 @@ module HeyJony
       @username = ''
       @icon_emoji = ''
 
+      # @param webhook_url<String>
+      # @param channel<String>
+      # @param username<String>
+      # @param icon_emoji<String>
+      # @return void
       def initialize(webhook_url, channel, username, icon_emoji)
         @webhook_url = webhook_url
         @channel = channel
@@ -17,6 +22,7 @@ module HeyJony
         @icon_emoji = icon_emoji
       end
 
+      # @param message<String>
       def post(message)
         notifier = ::Slack::Notifier.new @webhook_url, channel: @channel, icon_emoji: @icon_emoji, username: @username
         notifier.post text: message
