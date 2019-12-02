@@ -3,6 +3,7 @@
 
 $LOAD_PATH.unshift File.expand_path('../lib', __dir__)
 
+require 'dotenv/load'
 require 'hey_jony'
 # execute
 HeyJony::Cli.start ARGV
