@@ -2,4 +2,9 @@
 .env
 vendor/
 
+# docker で使用
+!/var/db/*
+/var/db/*
+
 .idea
+!.gitkeep
