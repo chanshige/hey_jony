@@ -1,6 +1,7 @@
 production:
-  adapter: postgresql
-  encoding: unicode
+  adapter:  mysql2
+  encoding: utf8
+  charset: utf8mb4
   host: <%= ENV['DATABASE_HOST'] %>
   port: <%= ENV['DATABASE_PORT'] %>
   database: <%= ENV['DATABASE_NAME'] %>

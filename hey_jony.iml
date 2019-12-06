@@ -273,24 +273,24 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="pg (vbundled(1.1.4)) [path][gem]" type="rubylib">
+      <library name="mysql2 (vbundled(0.5.3)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/support" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/support" />
         </SOURCES>
         <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/pg-1.1.4/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/support" />
         </excluded>
       </library>
     </orderEntry>
