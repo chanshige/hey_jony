@@ -6,6 +6,15 @@ Welcome to jony bot cli.
     % cp .env.sample .env
     % bundle install --path vendor/bundle
 
+## Path
+    $ brew info openssl (compilers to find openssl you may need to set path.)
+    
+    # LDFLAGS
+    % bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib"
+    
+    # CPPFLAGS
+    % bundle config --local build.mysql2 "--with-cppflags=-I/usr/local/opt/openssl/include"
+
 ## Usage
     % bundle exec ruby bin/console
 
