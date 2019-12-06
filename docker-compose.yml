@@ -1,16 +1,15 @@
 version: '3.1'
 
 services:
-  mysql:
+  pgsql:
     container_name: jony_super_db
-    image: mysql:5.7
+    image: postgres:latest
     ports:
-      - "3301:3306"
+      - "5431:5432"
     volumes:
-      - "./var/db:/var/lib/mysql"
+      - "./var/db:/var/lib/postgresql/data"
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: secret
-      MYSQL_DATABASE: hey_jony
-      MYSQL_USER: jony
-      MYSQL_PASSWORD: genius
+      POSTGRES_DB: hey_jony
+      POSTGRES_USER: jony
+      POSTGRES_PASSWORD: genius
