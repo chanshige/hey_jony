@@ -9,4 +9,4 @@ require 'hey_jony/database'
 
 # db connection
 config = YAML.safe_load(ERB.new(IO.read(File.expand_path('./config/database.yml', BASE_DIR))).result)
-(HeyJony::Database.new config).connection ENV['ENV_MODE']
+HeyJony::Database.connection config

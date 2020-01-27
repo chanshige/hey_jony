@@ -12,7 +12,7 @@ module HeyJony
     # @param msg<String>
     # @return void
     def notify(msg = 'Welcome to jony bot cli!')
-      slack = HeyJony::Notifier::Slack.new ENV['SLACK_INCOMING_WEBHOOK_URL'],
+      slack = HeyJony::Notifier::Slack.new ENV['SLACK_WEBHOOK_URL'],
                                            ENV['SLACK_CHANNEL'],
                                            ENV['SLACK_USERNAME'],
                                            ENV['SLACK_ICON_EMOJI']
