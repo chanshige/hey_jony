@@ -3,14 +3,15 @@ version: '3.1'
 services:
   mysql:
     container_name: jony_super_db
-    image: mysql:5.7
+    image: mysql:latest
     ports:
       - "3301:3306"
     volumes:
-      - "./var/db:/var/lib/mysql"
+      - "./var/docker/db:/var/lib/mysql"
+      - "./var/docker/db.cnf:/etc/mysql/conf.d/db.cnf"
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: secret
-      MYSQL_DATABASE: hey_jony
+      MYSQL_DATABASE: heyjony_db
       MYSQL_USER: jony
       MYSQL_PASSWORD: genius

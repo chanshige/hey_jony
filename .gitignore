@@ -1,10 +1,10 @@
+.idea
 .bundle
 .env
-vendor/
+/vendor
 
-# docker で使用
-!/var/db/*
-/var/db/*
+!/var/docker/db/*
+/var/docker/db/*
 
-.idea
+!db.cnf
 !.gitkeep

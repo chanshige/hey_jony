@@ -5,7 +5,7 @@ require_relative 'bootstrap'
 
 namespace :db do
   migration_context = ActiveRecord::MigrationContext.new(
-      File.expand_path('./db/migration', BASE_DIR),
+      File.expand_path('./database/migration', BASE_DIR),
       ActiveRecord::SchemaMigration
   )
 
